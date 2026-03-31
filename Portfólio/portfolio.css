@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    font-size: 5vh;
+    height: 10vh;
+}
+
+.title{
+    margin-left: 2%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: #ecfc13;
+    font-weight: bolder;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5%;
+    width: 30%;
+    gap: 10%;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #ecfc13;
+    font-weight: bold;
+}
+
+.btn :hover{
+    color: #f6fca5;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    color: #ffffff;
+    gap: 20%;
+    height: 60vh;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    width: 40%;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto img{
+    aspect-ratio: 1/1;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+.ferramentas{
+    display: flex;
+    flex-direction: column;
+    background-color: #262525;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    height: 30vh;
+}
+
+#usadas{
+    display: flex;
+    justify-content: center;
+}
+
+#imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.ferramentas img{
+    height: auto;
+    width: 5%;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    height: 25vh;
+    gap: 50%;
+}
+
+.contact{
+    margin: 0% 0% 0% 5%;
+}
+
+#contatos{
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.footer span{
+    font-weight: bold;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 5% 0 0;
+    font-weight: bold;
+}
